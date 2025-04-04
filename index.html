@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <meta charset="UTF-8">
+    <script src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pages/assets/style.css">
     <title>Calculadora Master</title>
@@ -13,36 +15,35 @@
             <div id="container-tela">
                 <div id="tela">
                     <div id="text-tela">alo diabo</div>
-                    
                 </div>
-                <div id="limpartela">C</div>
+                <button id="limpartela" type="button">C</button>
             </div>
         </div>
         <div class="container-teclas">
             <div id="teclas">
                 <div class="container-num">
-                    <div class="num">1</div>
-                    <div class="num">2</div>
-                    <div class="num">3</div>
-                    <div class="num">+</div>
+                    <button id="num1" value="1"  class="num" type="button">1</button>
+                    <button id="num2"  class="num" type="button">2</button>
+                    <button id="num3"  class="num" type="button">3</button>
+                    <button id="adição"  class="num" type="button">+</button>
                 </div>
                 <div class="container-num">
-                    <div class="num">4</div>
-                    <div class="num">5</div>
-                    <div class="num">6</div>
-                    <div class="num">-</div>
+                    <button  class="num" type="button">4</button>
+                    <button  class="num" type="button">5</button>
+                    <button  class="num" type="button">6</button>
+                    <button  class="num" type="button">-</button>
                 </div>
                 <div class="container-num">
-                    <div class="num">7</div>
-                    <div class="num">8</div>
-                    <div class="num">9</div>
-                    <div class="num">*</div>
+                    <button  class="num" type="button">7</button>
+                    <button  class="num" type="button">8</button>
+                    <button  class="num" type="button">9</button>
+                    <button  class="num" type="button">*</button>
                 </div>
                 <div class="container-num">
-                    <div class="num">.</div>
-                    <div class="num">0</div>
-                    <div class="num">=</div>
-                    <div class="num">/</div>
+                    <button  class="num" type="button">.</button>
+                    <button  class="num" type="button">0</button>
+                    <button id="result"  class="num" type="button">=</button>
+                    <button  class="num" type="button">/</button>
                 </div>
             </div>
         </div>
